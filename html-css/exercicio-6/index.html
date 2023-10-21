@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Fromatação de textos</title>
+    <style>
+        mark{
+            background-color: rgb(171, 114, 224);
+        }
+    </style>
 </head>
 <body>
     <h1>Principais formatações</h1>
@@ -21,5 +26,20 @@
     <h3>Modelo semantico &lt;em&gt;</h3>
     <p>Nessa frase temos <em>termos em italico</em> usando a tag &lt;em&gt;, que é uma tag focada em conteudo, o
     que condiz com as regras que compõe a html</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos tambem criar <mark style="background-color: rgb(109, 26, 26);">um texto marcado usando a tag &lt;mark&gt;</mark>,que não é reconhecida pelo vscode. (selecione o texto que quiser marcar e pressione ctrl+shift+p e digite mark)</p>
+    <p><mark>Teste de mudança de cor da marcação usando css</mark></p>
+    <h2>Texto grande/Texto Pequeno</h2>
+    <p><big>Este paragrafo esta divido</big> <small>em texto grande e pequeno.</small><br>Ultilizando as tags &lt;big&gt; e &lt;small&gt; sendo que a tag big caiu em desuso por falta de uso semantico</p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluido</del>, para indicar que ele deve ser lido, mas não considerado ultilizando a tag &lt;del&gt;</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins>, para dar enfase e indicar que ele foi adicionado depois ultilizando a tag &lt;ins&gt;</p>
+    <h2>Texto sublinhado(desuso)</h2>
+    <p>É possivel tambem <u>sublinhar um texto</u> ultilizando a tag &lt;u&gt; que caiu em desuso por falta de semantica</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para textos <sup>a cima do texto principal</sup> da linha se ultiliza a tag &lt;sup&gt;</p>
+    <h2>Texto subscrito</h2>
+    <p>Para textos <sub>a baixo do texto principal</sub> da linha se ultiliza a tag &lt;sub&gt;</p>
 </body>
 </html>
